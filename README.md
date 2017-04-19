@@ -1,6 +1,4 @@
-# easyLG
-
-## Landscape genomics made easy!
+# easyLG: Landscape genomics made easy!
 
 This R package launch a shiny app for landscape genomic analysis.
 The Shiny app has been developed in the [LGapp repo](https://github.com/aariani/LGapp). We included the code in an R packages for ease of use
