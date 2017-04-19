@@ -27,6 +27,14 @@ You will need to download bioclimatic data (BIO1-BIO19) from the [Worldclim data
 
 **For windows users please save the bioclim data into your XXX (need to check) folder**
 
+## Installation
+
+For install the `easyLG` package in your system open R or RStudio and type in the terminal:
+
+	library(devtools)
+	install_github('aariani/easyLG')
+
+
 ## Tutorials and example dataset
 
 For a more detailed tutorial please visit the [wiki page](https://github.com/aariani/easyLG/wiki) of this repo (work in progress!!)
