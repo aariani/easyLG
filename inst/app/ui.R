@@ -196,7 +196,7 @@ shinyUI(navbarPage('easyLG', theme=shinytheme('cosmo'),
 				)
 			)
 		),
-	tabPanel('SNPs annotation', icon=icon('puzzle-piece'),
+	tabPanel('Annotation', icon=icon('puzzle-piece'),
 		sidebarPanel(
 			h2('SNPs annotation'),
 			tags$hr(),
