@@ -29,7 +29,7 @@ easyLG_check = function(){
   if (!require(maps)) install.packages('maps')
   if (!require(qqman)) install.packages('qqman')
   if (!require(gplots)) install.packages('gplots')
-  print('All the packages are installed!!!!!')
+  message('All the packages are installed!!!!!')
 }
 
 #' @title Update dependencies
@@ -52,7 +52,7 @@ easyLG_update = function(){
   install.packages('maps')
   install.packages('qqman')
   install.packages('gplots')
-  print('Packages updated!!!')
+  message('Packages updated!!!')
 }
 
 #' @title R shiny app for landscape genomic
