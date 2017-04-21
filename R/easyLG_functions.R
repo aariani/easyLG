@@ -15,7 +15,6 @@
 #'
 
 easyLG_check = function(){
-  library(devtools)
   source('https://www.bioconductor.org/biocLite.R')
   if (!require(kohonen)) install.packages('kohonen')
   if (!require(shiny)) install.packages('shiny')
@@ -25,7 +24,7 @@ easyLG_check = function(){
   if (!require(dismo)) install.packages('dismo')
   if (!require(googleVis)) install.packages('googleVis')
   if (!require(ChemometricsWithR)) install.packages('ChemometricsWithR')
-  if (!require(tess3r)) install_github('cayek/TESS3/tess3r', force=T)
+  if (!require(tess3r)) devtools::install_github("BioShock38/TESS3_encho_sen")
   if (!require(maps)) install.packages('maps')
   if (!require(qqman)) install.packages('qqman')
   if (!require(gplots)) install.packages('gplots')
@@ -38,7 +37,6 @@ easyLG_check = function(){
 #'
 
 easyLG_update = function(){
-  library(devtools)
   source('https://www.bioconductor.org/biocLite.R')
   install.packages('kohonen')
   install.packages('shiny')
@@ -48,7 +46,7 @@ easyLG_update = function(){
   install.packages('dismo')
   install.packages('googleVis')
   install.packages('ChemometricsWithR')
-  install_github('cayek/TESS3/tess3r', force=T)
+  devtools::install_github("BioShock38/TESS3_encho_sen")
   install.packages('maps')
   install.packages('qqman')
   install.packages('gplots')
