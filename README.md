@@ -34,6 +34,11 @@ For install the `easyLG` package in your system open R or RStudio and type in th
 	library(devtools)
 	install_github('aariani/easyLG')
 
+Before starting the easyLG_app() olease check if all the package dependencies are installed by opening R or RStudion and type in the terminal:
+
+	easyLG_check()
+
+This step will check if the dependencies are installed. If not the function will install them directly in your system.
 
 ## Tutorials and example dataset
 
