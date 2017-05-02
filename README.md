@@ -25,7 +25,7 @@ For informations about installing devtools on different system please visit the 
 
 You will need to download bioclimatic data (BIO1-BIO19) from the [Worldclim database](http://www.worldclim.org/) into your system.
 
-**For windows users please save the bioclim data into your XXX (need to check) folder**
+**For windows users please save the bioclim data into your C:\User\YOURNAME\Documents\ folder**
 
 ## Installation
 
