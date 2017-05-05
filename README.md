@@ -15,11 +15,24 @@ The package consists of 3 functions:
 
 ## Before starting
 
+Please follow the order of the different subheaders for dependencies installation
+
+### Ubuntu libraries
+
+For installing and running the package in Ubuntu you will need to install several libraries as the RcppEigen, libcurl and libssl.
+
+From the terminal type:
+
+        sudo apt-get install r-cran-rcppeigen
+        sudo apt-get install libcurl4-openssl-dev libssl-dev
+
 ### Install R devtools
 
 The package requires the installation of the devtools R package before starting.
 
-For informations about installing devtools on different system please visit the [devtools website](https://github.com/hadley/devtools) or the [README file](https://cran.r-project.org/web/packages/devtools/README.html)
+For informations about installing devtools on different system please visit the [devtools website](https://github.com/hadley/devtools) or the [README file](https://cran.r-project.org/web/packages/devtools/README.html).
+
+### Windows
 
 ### Download bioclimatic data
 
