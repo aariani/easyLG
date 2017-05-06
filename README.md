@@ -19,7 +19,7 @@ Please follow the order of the different subheaders for dependencies installatio
 
 ### Ubuntu libraries
 
-For installing and running the package in Ubuntu you will need to install several libraries as the RcppEigen, libcurl and libssl.
+For installing and running the package in Ubuntu you will need to install several libraries like the RcppEigen, libcurl and libssl.
 
 From the terminal type:
 
@@ -53,7 +53,7 @@ For install the `easyLG` package in your system open R or RStudio and type in th
 	library(devtools)
 	install_github('aariani/easyLG')
 
-Before starting the easyLG_app() olease check if all the package dependencies are installed by opening R or RStudion and type in the terminal:
+Before starting the easyLG_app() please check if all the package dependencies are installed by opening R or RStudion and type in the terminal:
 
 	easyLG_check()
 
