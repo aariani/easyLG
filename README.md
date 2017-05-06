@@ -26,13 +26,19 @@ From the terminal type:
         sudo apt-get install r-cran-rcppeigen
         sudo apt-get install libcurl4-openssl-dev libssl-dev
 
+### Windows
+
+For Windows you will need to install the curl library in R.
+
+From within R type:
+
+	install.packages('curl')
+
 ### Install R devtools
 
 The package requires the installation of the devtools R package before starting.
 
 For informations about installing devtools on different system please visit the [devtools website](https://github.com/hadley/devtools) or the [README file](https://cran.r-project.org/web/packages/devtools/README.html).
-
-### Windows
 
 ### Download bioclimatic data
 

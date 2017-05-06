@@ -16,7 +16,7 @@
 
 easyLG_check = function(){
   source('https://www.bioconductor.org/biocLite.R')
-  if (!require(curls)) install.packages('curl')
+  if (!require(curl)) install.packages('curl')
   if (!require(kohonen)) install.packages('kohonen')
   if (!require(shiny)) install.packages('shiny')
   if (!require(shinythemes)) install.packages('shinythemes')
