@@ -63,4 +63,4 @@ This step will check if the dependencies are installed. If not the function will
 
 For a more detailed tutorial please visit the [wiki page](https://github.com/aariani/easyLG/wiki) of this repo (work in progress!!)
 
-For an exaple dataset please downloads the VCF and CSV files at [this link](https://github.com/aariani/LGapp/tree/master/data_tutorial)
+For an exaple dataset please downloads the SNPs file (in VCF format) and the coordinates file [here](https://github.com/aariani/LGapp/tree/master/data_tutorial/easyLG_tutorial.zip)
