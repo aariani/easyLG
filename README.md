@@ -19,20 +19,26 @@ Please follow the order of the different subheaders for dependencies installatio
 
 ### Ubuntu libraries
 
-For installing and running the package in Ubuntu you will need to install several libraries as the RcppEigen, libcurl and libssl.
+For installing and running the package in Ubuntu you will need to install several libraries like the RcppEigen, libcurl and libssl.
 
 From the terminal type:
 
         sudo apt-get install r-cran-rcppeigen
         sudo apt-get install libcurl4-openssl-dev libssl-dev
 
+### Windows
+
+For Windows you will need to install the curl library in R.
+
+From within R type:
+
+	install.packages('curl')
+
 ### Install R devtools
 
 The package requires the installation of the devtools R package before starting.
 
 For informations about installing devtools on different system please visit the [devtools website](https://github.com/hadley/devtools) or the [README file](https://cran.r-project.org/web/packages/devtools/README.html).
-
-### Windows
 
 ### Download bioclimatic data
 
@@ -47,7 +53,7 @@ For install the `easyLG` package in your system open R or RStudio and type in th
 	library(devtools)
 	install_github('aariani/easyLG')
 
-Before starting the easyLG_app() olease check if all the package dependencies are installed by opening R or RStudion and type in the terminal:
+Before starting the easyLG_app() please check if all the package dependencies are installed by opening R or RStudion and type in the terminal:
 
 	easyLG_check()
 
@@ -57,4 +63,4 @@ This step will check if the dependencies are installed. If not the function will
 
 For a more detailed tutorial please visit the [wiki page](https://github.com/aariani/easyLG/wiki) of this repo (work in progress!!)
 
-For an exaple dataset please downloads the VCF and CSV files at [this link](https://github.com/aariani/LGapp/tree/master/data_tutorial)
+For an exaple dataset please downloads the SNPs file (in VCF format) and the coordinates file [here](https://github.com/aariani/LGapp/tree/master/data_tutorial/easyLG_tutorial.zip)
