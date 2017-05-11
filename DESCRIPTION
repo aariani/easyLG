@@ -1,11 +1,11 @@
 Package: easyLG
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Shiny app for Landscape Genomic analysis
 Version: 0.1
 Date: 2017-04-19
 Author: Andrea Ariani
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
+Maintainer: aariani@ucdavis.edu
+Description: This package is a Shiny app for performing Landscape Genomics analysis of SNPs data and identify signature of environmental selection in natural plant populations. Thanks to the easy to use interface implemented in shiny, we were able to include several programs in a single user-friendly framework that allows researcher with no programming abilities to be able to perform Landscape Genomic analysis. In addition the app generate nice graph that can be used for data interpretation.
 License: GPL-3
 LazyData: TRUE
 Imports: shiny,
