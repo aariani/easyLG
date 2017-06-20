@@ -1,11 +1,13 @@
 Package: easyLG
 Type: Package
-Title: What the Package Does (Title Case)
+Title: A shiny app for landscape genomic analysis
 Version: 0.1
 Date: 2017-04-19
 Author: Andrea Ariani
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
+Maintainer: Andrea Ariani <aariani@ucdavis.edu>
+Description: This package allows to perform a typical landscape genomic
+    analysis from VCF SNPs data using a simple grafical interface with 
+    no need of programming abilities 
 License: GPL-3
 LazyData: TRUE
 Imports: shiny,
