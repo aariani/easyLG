@@ -31,7 +31,7 @@ shinyUI(navbarPage('easyLG', theme=shinytheme('cosmo'),
 			verbatimTextOutput('text1')
 			),
 		mainPanel(
-			h1(strong('Welcome to LGapp!!!'), align='center'),
+			h1(strong('Welcome to easyLG!!!'), align='center'),
 			h2('a Shiny web-app for landscape genomics analysis within R', align='center'),
 			h3('For starting your landscape genomics project please select a ', strong('Project Folder'), ' and your SNPs file (in VCF format)', align='center')
 			)
