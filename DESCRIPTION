@@ -10,13 +10,3 @@ Description: This package allows to perform a typical landscape genomic
     no need of programming abilities 
 License: GPL-3
 LazyData: TRUE
-Imports: shiny,
-    shinyFiles,
-    shinythemes,
-    dismo,
-    googleVis,
-    ChemometricsWithR,
-    maps,
-    qqman,
-    gplots
-RoxygenNote: 6.0.1
