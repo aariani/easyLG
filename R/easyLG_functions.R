@@ -16,6 +16,7 @@
 
 easyLG_check = function(){
   source('https://www.bioconductor.org/biocLite.R')
+  if (!require(RcppEigen)) install.packages('RcppEigen')
   if (!require(kohonen)) install.packages('kohonen')
   if (!require(shiny)) install.packages('shiny')
   if (!require(shinythemes)) install.packages('shinythemes')
@@ -40,6 +41,7 @@ easyLG_check = function(){
 
 easyLG_update = function(){
   source('https://www.bioconductor.org/biocLite.R')
+  install.packages('RcppEigen')
   install.packages('kohonen')
   install.packages('shiny')
   install.packages('shinythemes')
