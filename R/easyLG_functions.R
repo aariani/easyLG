@@ -31,6 +31,7 @@ easyLG_check = function(){
   if (!require(maps)) install.packages('maps')
   if (!require(qqman)) install.packages('qqman')
   if (!require(gplots)) install.packages('gplots')
+  if (!require((rworldmap)) install.packages('rworldmap')
   message('All the packages are installed!!!!!')
 }
 
@@ -56,6 +57,7 @@ easyLG_update = function(){
   install.packages('maps')
   install.packages('qqman')
   install.packages('gplots')
+  install.packages('rworldmap')
   message('Packages updated!!!')
 }
 
